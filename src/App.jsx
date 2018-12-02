@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { FormGroup, FormControl, InputGroup, Glyphicon } from "react-bootstrap";
+const Sportify = require(spotify-web-api-js);
 
 
 class App extends Component {
