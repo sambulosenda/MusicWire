@@ -1,17 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
 import { FormGroup, FormControl, InputGroup, Glyphicon } from "react-bootstrap";
-const Sportify = require(spotify-web-api-js);
-
 
 class App extends Component {
-
   constructor(props){
     super(props);
     this.state ={
      query: ''
     }
   }
+
   search(){
     console.log('this.state', this.state);
     const BASE_URL = 'https://api.spotify.com/v1/search?';
